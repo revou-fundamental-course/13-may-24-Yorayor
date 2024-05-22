@@ -1,25 +1,11 @@
-table {
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-input[type="button"] {
-  width: 100%;
-  padding: 20px 40px;
-  background-color: green;
+.section-content {
+  background-color: lightseagreen;
   color: white;
-  font-size: 24px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
-input[type="text"] {
-  padding: 20px 30px;
-  font-size: 24px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  border: 2px solid black;
+.section-content > h2 {
+  margin: 0;
 }
