@@ -1,11 +1,28 @@
+.headerAwal {
+  text-align: center;
+}
+
 .section-content {
   background-color: lightseagreen;
   color: white;
   text-align: center;
-  padding-top: 2px;
+  padding-top: 10px;
   padding-bottom: 2px;
 }
 
 .section-content > h2 {
   margin: 0;
+}
+
+#pindah-keliling {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-weight: bolder;
+  color: blue;
+}
+
+.formula-img {
+  width: 30%;
+  text-align: center;
 }
