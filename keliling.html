@@ -23,10 +23,10 @@
         </div>
       
       <!-- Untuk Berpindah ke Keliling Segitiga -->
-      <a href="keliling.html" id="pindah-keliling" > Pindah ke Keliling </a>
+      <a href="index.html" id="pindah-keliling" > Pindah ke Luas Segitiga </a>
     </section>
 
-    <div id="segitiga">
+<div>
     <!-- Konten Menghitung Luas Segitiga -->
         <section>
           <div class="section-content">
@@ -36,7 +36,7 @@
 
           <!-- Gambar Rumus Luas Segitiga -->
           <div align="center">
-            <img src="img/Rumus Luas Segitiga.jpg" alt="Rumus Luas segitiga" class="formula-img" />
+            <img src="img/Rumus Keliling Segitiga.jpg" alt="Rumus Keliling Segitiga" class="formula-img" />
           </div>
 
           <!-- Pemisah Konten -->
@@ -45,30 +45,29 @@
 
           <!-- Konten Pembukaan Menghitung Luas Segitiga -->
           <header>
-            <h3>Hitung Luas Segitiga</h3>
+            <h3>Hitung Keliling Segitiga</h3>
           </header>
 
           <!-- Form Menghitung Luas Segitiga -->
-          <form id="luasForm">
-            <section>
-              <div><label for="alas">Alas :</label>
-              <input type="number" id="alas" name="alas" required>
-              </div>
-          <br>
-              <div><label for="tinggi">Tinggi :</label>
-                <input type="number" id="tinggi" name="tinggi" required>
-              </div>
-            </section>
-            <p>Luas segitiga adalah =</p>
-            <p id="luasResult">  </p>
-
-            <!-- Konfirmasi Aksi Menghitung -->
-            <button type="submit" id="button-hitung">Hitung</button>
-            <button type="reset" id="button-bersihkan" >Bersihkan</button>
-          </form>
+          <form id="kelilingForm">
+            <label for="sisi1">Sisi 1:</label>
+            <input type="number" id="sisi1" name="sisi1" required>
+            <label for="sisi2">Sisi 2:</label>
+            <input type="number" id="sisi2" name="sisi2" required>
+            <label for="sisi3">Sisi 3:</label>
+            <input type="number" id="sisi3" name="sisi3" required>
+            <div class="buttons">
+                <br>
+                <p>Keliling Segitiga adalah =</p>
+                <p id="kelilingResult"></p>
+                <br>
+                <button type="submit" id="button-hitung">Hitung</button>
+                <button type="button" id="button-bersihkan">Reset</button>
+            </div>
+            
+            </form>
         </section>
   </div>
-
   <script src="js/script.js"></script>
   </body>
 </html>
