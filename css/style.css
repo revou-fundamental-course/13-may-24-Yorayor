@@ -26,3 +26,28 @@
   width: 30%;
   text-align: center;
 }
+
+input {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: beige;
+  font-family: math;
+  padding: 4px;
+}
+
+#button-hitung {
+  color: white;
+  background: dodgerblue;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+#button-bersihkan {
+  color: white;
+  background: red;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
